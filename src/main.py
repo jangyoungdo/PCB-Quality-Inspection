@@ -9,7 +9,7 @@ from ui.main_window import MainWindow
 def main():
     app = QApplication(sys.argv)
     main_window = MainWindow()
-    main_window.show()
+    main_window.showMaximized()  # 전체 화면으로 열기
     sys.exit(app.exec_())
 
 if __name__ == '__main__':
